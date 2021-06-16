@@ -1,0 +1,58 @@
+*{
+    font-family : "SciFly-Sans";
+    font-size : 20px;
+}
+
+body{
+    height: 100%;
+}
+
+#logo {
+    height : 70px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#logo:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+@font-face{
+    font-family : "SciFly-Sans";
+    src: url('../font/SciFly-Sans.ttf') format("truetype");
+}
+
+.nav-link:hover{
+    text-shadow: 0 3px 15px rgba(255,255,255,1);
+}
+
+.bg-dark{
+    background-color: black;
+}
+
+#Liens:hover{
+    text-shadow: 0 3px 15px rgba(0,0,0,1);
+}
+
+#Res{
+    display:none;
+}
+
+.weatherIcon{
+    height: 20px;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.media-body{
+    margin-left: 10px;
+}
